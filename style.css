@@ -9,7 +9,7 @@ nav.navbar {
     transition: all 0.3s ease;
 }
 .navbar.sticky {
-    padding: 15px;
+    padding: 1px;
     background: crimson;
 }
 .navbar div .menu li a{
@@ -28,7 +28,7 @@ nav.navbar {
 }
 #Gopku {
     fill: orange;
-    width: 150px;
+    width: 110px;
 }
 .navbar div .menu li {
     list-style: none;
