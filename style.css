@@ -26,7 +26,7 @@ nav.navbar {
     font-size: 35px;
     font-weight: 600;
 }
-#Gopku {
+#Layer_1 {
     fill: orange;
     width: 110px;
 }
@@ -159,6 +159,44 @@ section {
     border-radius: 12px;
 }
 
+/* teams section styling  */
+
+.teams {
+    font-family: sans-serif;
+}
+.teams .title {
+    position: relative;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.teams .title::before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 315px;
+    height: 3px;
+    background: white;
+    transform: translateX(-50%);
+}
+.teams .title::after{
+    content: "kimleriz";
+    font-size: 20px;
+    color: yellowgreen;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    padding: 5px;
+    background: black;
+    transform: translateX(-50%);
+}
+.teams {
+    color: white;
+    background: black;
+}
 
 /* responsive media query start */
 @media (max-width: 1300px) {
