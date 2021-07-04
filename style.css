@@ -254,6 +254,80 @@ section {
     background: greenyellow! important;
 }
 
+/* contact section start  */
+
+.contact .title {
+    position: relative;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.contact .title::before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 315px;
+    height: 3px;
+    background: black;
+    transform: translateX(-50%);
+}
+.contact .title::after{
+    content: "call me may be";
+    font-size: 20px;
+    color: yellowgreen;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    padding: 5px;
+    background: white;
+    transform: translateX(-50%);
+}
+.contact {
+    font-family: sans-serif;
+}
+.contact .contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact .contact-content .column {
+    width: calc(50% - 30px);
+}
+.contact .contact-content .left p {
+    text-align: justify;
+}
+.contact .contact-content .text {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.contact .contact-content .left .icons {
+    margin: 10px 0;
+}
+.contact .contact-content .row {
+    display: flex;
+    height: 65px;
+    align-items: center;
+}
+.contact .contact-content .row .info {
+    margin-left: 30px;
+}
+.contact .contact-content .row i {
+    font-size: 25px;
+    color: crimson;
+}
+.contact .contact-content .info .head {
+    font-weight: 500;
+}
+
+
+
+
+
 /* responsive media query start */
 @media (max-width: 1300px) {
     .home .max-width {
