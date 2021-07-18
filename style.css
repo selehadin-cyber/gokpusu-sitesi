@@ -7,28 +7,32 @@ nav.navbar {
     padding: 30px 0;
     /* margin-bottom: 0px; */
     transition: all 0.3s ease;
+    padding: 1px;
+    background: white;
 }
 .navbar.sticky {
     padding: 1px;
-    background: crimson;
+    background: white;
 }
 .navbar div .menu li a{
-    color: orange;
+    color: rgb(37, 35, 35);
     font-size: 18px;
     font-weight: 600;
     margin-right: 35px;
     transition: color 0.3s ease;
 }
 .navbar div .menu li a:hover{
-    color: crimson;
+    color: black;
 }
 .navbar div .logo a{
     font-size: 35px;
     font-weight: 600;
 }
 #Layer_1 {
-    fill: orange;
+    fill: black;
     width: 110px;
+    padding-top: 20px;
+    
 }
 .navbar div .menu li {
     list-style: none;
@@ -37,7 +41,7 @@ nav.navbar {
 .navbar .max-width {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .max-width {
     max-width: 1300px;
@@ -57,7 +61,7 @@ nav.navbar {
 /* home section styling */
 .home{
     display: flex;
-    background: url(sele4.png) no-repeat center;
+    background: url(planee\ bg.svg) no-repeat center;
     background-size: cover;
     height: 100vh;
     
@@ -101,6 +105,8 @@ section {
 }
 .about {
     font-family: sans-serif;
+    font-size: 27px;
+    text-align: center;
 }
 .about .title {
     position: relative;
@@ -121,7 +127,7 @@ section {
     transform: translateX(-50%);
 }
 .about .title::after{
-    content: "napıyoruz";
+    content: "";
     font-size: 20px;
     color: yellowgreen;
     position: absolute;
@@ -131,33 +137,33 @@ section {
     background: white;
     transform: translateX(-50%);
 }
-.about .about-content {
+/* .about .about-content {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-}
-.about .about-content .left {
+} */
+/* .about .about-content .left {
     width: 45%;
-}
+} */
 .about .about-content .right {
-    width: 55%;
+    width: 100%;
 }
 .about .about-content .right .text {
-    font-size: 25px;
+    font-size: 40px;
     font-weight: 500;
     margin-bottom: 10px;
 }
-.about .about-content .right p {
-    text-align: justify;
-    font-size: 20px;
+.about .about-content p {
+    text-align: center;
+    font-size: 43px! important;
 }
-.about .about-content .left img {
+/* .about .about-content .left img {
     height: 400px;
     width: 400px;
     object-fit: cover;
     border-radius: 12px;
-}
+} */
 
 /* teams section styling  */
 
@@ -183,7 +189,7 @@ section {
     transform: translateX(-50%);
 }
 .teams .title::after{
-    content: "kimleriz";
+    content: "";
     font-size: 20px;
     color: yellowgreen;
     position: absolute;
@@ -275,7 +281,7 @@ section {
     transform: translateX(-50%);
 }
 .contact .title::after{
-    content: "call me may be";
+    content: "";
     font-size: 20px;
     color: yellowgreen;
     position: absolute;
