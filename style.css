@@ -510,7 +510,7 @@ section {
 .content button:hover{
   background: linear-gradient(147deg, #fe791b 0%, #fd1c1c 74%);
 }
-.sliders{
+.sliders {
   position: absolute;
   bottom: 1px;
   left: 50%;
